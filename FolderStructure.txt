@@ -28,3 +28,33 @@
 |-- package.json
 |-- README.md
 `-- vue.config.js
+/
+|-- node_modules/
+|-- public/
+|   |-- favicon.ico
+|   |-- index.html
+|   `-- assets
+|       |-- moto_cbr600rr_delantera.jpg
+|       |-- moto_cbr600rr_lateral.jpg
+|       |-- moto_cbr600rr_trasera.jpg
+|       |-- moto_cbr600rr.jpg
+|       `-- perfil.jpg
+|-- src/
+|   |-- components/
+|       |-- DevCristobalvc.vue        # Contiene dev.html, ScriptDev.js, StyleDev.css
+|       |-- Gixxer_sf.vue             # Contiene gixxer.html, scriptGixxer.js, styloGixxer.css
+|       |-- RickAndMorty.vue          # Contiene r&m.html, r&mScript.js, r&mStyles.css
+|       |-- Footer.vue                # Contiene footer.html
+|       |-- Header.vue                # Contiene header.html
+|   |-- App.vue
+|   |-- main.js
+|   `-- axios.js                      # Si vas a hacer uso de llamadas a APIs
+|-- static/
+|   `-- datos.json                    # Se mueve aquí si se va a servir estáticamente
+|-- .gitignore
+|-- babel.config.js
+|-- jsconfig.json
+|-- package-lock.json
+|-- package.json
+|-- README.md
+`-- vue.config.js
