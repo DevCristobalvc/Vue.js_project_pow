@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" class="img">
+  <HelloWorld msg="DevCristobalvc"/>
 </template>
 
 <script>
@@ -23,4 +23,10 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.img{
+  width: 300px; /* Cambia a tu tamaño deseado */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
 </style>
