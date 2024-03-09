@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <Header />
-    <Menu />
+    <CompHeader />
+    <CompMenu />
     <router-view /> <!-- Las páginas de vue-router se renderizarán aquí -->
-    <Footer />
+    <CompFooter />
   </div>
 </template>
 
 <script>
 // Importar los componentes
-import Header from './components/Header.vue';
-import Menu from './components/Menu.vue';
-import Footer from './components/Footer.vue';
+import CompHeader from './components/CompHeader.vue';
+import CompMenu from './components/CompMenu.vue';
+import CompFooter from './components/CompFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Menu,
-    Footer
+    CompHeader,
+    CompMenu,
+    CompFooter
   }
 }
 </script>
