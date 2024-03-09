@@ -1,15 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" class="img">
-  <HelloWorld msg="DevCristobalvc"/>
+  <div id="app">
+    <Header />
+    <Menu />
+    <router-view /> <!-- Las páginas de vue-router se renderizarán aquí -->
+    <Footer />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './pages/RickAndMorty.vue'
+// Importar los componentes
+import Header from './components/Header.vue';
+import Menu from './components/Menu.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Menu,
+    Footer
   }
 }
 </script>
@@ -24,9 +33,5 @@ export default {
   margin-top: 60px;
 }
 
-.img{
-  width: 300px; /* Cambia a tu tamaño deseado */
-  height: auto; /* Mantiene la proporción de la imagen */
-}
-
+/* Resto de tus estilos globales */
 </style>
