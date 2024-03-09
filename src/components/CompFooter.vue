@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Footer',
+    name: 'CompFooter',
     data() {
       return {
         currentYear: new Date().getFullYear()

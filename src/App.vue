@@ -34,4 +34,4 @@ export default {
 }
 
 /* Resto de tus estilos globales */
-</style>
+</style>./components/CompFooter.vue./components/CompHeader.vue./components/CompMenu.vue

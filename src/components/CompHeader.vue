@@ -10,10 +10,10 @@
   import Menu from './Menu.vue';
   
   export default {
-    name: 'Header',
+    name: 'CompHeader',
     components: {
       Menu
     }
   }
   </script>
-  
+  ./CompMenu.vue
