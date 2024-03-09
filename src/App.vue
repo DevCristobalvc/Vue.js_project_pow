@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/RickAndMorty.vue'
+import HelloWorld from './pages/RickAndMorty.vue'
 
 export default {
   name: 'App',
