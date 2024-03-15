@@ -10,14 +10,14 @@
 <script>
 // Importar los componentes
 import CompHeader from './components/CompHeader.vue';
-import CompMenu from './components/CompMenu.vue';
+//import CompMenu from './components/CompMenu.vue';
 import CompFooter from './components/CompFooter.vue';
 
 export default {
   name: 'App',
   components: {
     CompHeader,
-    CompMenu,
+    //CompMenu,
     CompFooter
   }
 }
