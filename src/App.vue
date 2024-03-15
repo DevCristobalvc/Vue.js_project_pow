@@ -33,5 +33,5 @@ export default {
   margin-top: 60px;
 }
 
-/* Resto de tus estilos globales */
+/* Resto de estilos globales */
 </style>./components/CompFooter.vue./components/CompHeader.vue./components/CompMenu.vue

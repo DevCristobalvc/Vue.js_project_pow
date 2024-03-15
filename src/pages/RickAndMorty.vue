@@ -2,7 +2,7 @@
     <div class="container">
       <h1 class="title">{{ nombre }}</h1>
       <div class="characters-container">
-        <div v-for="character in characters" :key="character.id" class="character-card">
+        <router-link v-for="character in characters" :key="character.id" :to="`/detalles/${character.id}`" class="character-card">
           <div class="character-image">
             <img :src="character.image" :alt="character.name" />
           </div>
@@ -12,7 +12,7 @@
             <p>Género: {{ character.gender }}</p>
             <p>Estado: {{ character.status }}</p>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
   </template>
@@ -21,7 +21,7 @@
   import { onMounted, ref } from 'vue';
   import axios from 'axios'; // Asegúrate de que axios esté instalado y correctamente importado
   
-  const nombre = ref('Rick and Morty // llamado dinamico!!');
+  const nombre = ref('Consulta Rick and Morty API');
   const characters = ref([]);
   
   onMounted(async () => {
@@ -40,7 +40,7 @@
   }
   
   .title {
-    background-color: #3c3e44; /* Color de fondo para el título */
+    background-color: #a50000; /* Color de fondo para el título */
     color: #ffffff; /* Color del texto para el título */
     padding: 1rem;
     margin-bottom: 1rem;

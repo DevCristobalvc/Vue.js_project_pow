@@ -1,7 +1,7 @@
 <template>
     <div class="character-details">
       <header>
-        <h1>Proyecto de POW 2024 //llamado dinámico!!</h1>
+        <h1>Detalles del personaje</h1>
       </header>
       <main>
         <button @click="goBack">volver</button>
@@ -19,9 +19,6 @@
           </div>
         </div>
       </main>
-      <footer>
-        <p>&copy; DevCristobal - 2024 Rick and Morty //llamado dinámico!!</p>
-      </footer>
     </div>
   </template>
   
@@ -56,11 +53,11 @@
   <style scoped>
   /* Tus estilos aquí. Puedes tomar inspiración de la imagen que proporcionaste. */
   .character-details header {
-    background-color: #3c3e44;
+    background-color: #a50000;
     color: white;
     padding: 1rem;
   }
   
-  /* Resto de tus estilos... */
+  /* Resto de estilos... */
   </style>
   

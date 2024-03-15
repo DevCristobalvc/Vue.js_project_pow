@@ -2,7 +2,7 @@
     <div class="menu">
       <router-link to="/Gixxer_sf" class="menu-button">Gixxer SF</router-link>
       <router-link to="/DevCristobalvc" class="menu-button">DevCristobalvc</router-link>
-      <router-link to="/RickAndMorty" class="menu-button">Rick & Morty</router-link>
+      <router-link to="/rick-and-morty" class="menu-button">Rick & Morty</router-link>
     </div>
   </template>
   
