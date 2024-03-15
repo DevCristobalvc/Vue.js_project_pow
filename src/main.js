@@ -5,12 +5,16 @@ import { createRouter, createWebHistory } from 'vue-router';
 // Importa los componentes de las páginas para tus rutas
 import RickAndMorty from './pages/RickAndMorty.vue';
 import DetallesPersonaje from './pages/DetallesPersonaje.vue';
+import Gixxer_sf from './pages/Gixxer_sf.vue';
+import DevCristobalvc from './pages/DevCristobalvc.vue';
 // importa otros componentes de página aquí si los necesitas
 
 // Define las rutas de tu aplicación
 const routes = [
   { path: '/rick-and-morty', component: RickAndMorty },
-  { path: '/detalles/:id', component: DetallesPersonaje}
+  { path: '/detalles/:id', component: DetallesPersonaje},
+  { path: '/gixxer-sf', component: Gixxer_sf},
+  { path: '/dev-cristobalvc', component: DevCristobalvc}
   // aquí puedes añadir más rutas para otros componentes de página
 ];
 

@@ -61,7 +61,7 @@ onMounted(async () => {
   border-radius: 10px;
   padding: 1rem;
   background-color: #f9f9f9; /* Fondo de cada tarjeta */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera para profundidad */
+  box-shadow: 0 2px 5px #333; /* Sombra ligera para profundidad */
   transition: transform 0.3s ease-in-out; /* Animación al pasar el mouse */
 }
 

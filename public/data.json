@@ -1,0 +1,25 @@
+{
+  "informacion_personal": {
+    "nombre": "Cristobal Valencia Ceron",
+    "edad": 20,
+    "correo": "cristobalvalencia3002@gmail.com",
+    "telefono": "+57 3005412940",
+    "direccion": "Carrera 85 c1 #54b - 27, Cali, Colombia",
+    "foto_perfil": "./src/assets/perfil.jpg"
+  },
+  "informacion_moto": {
+    "marca": "Suzuki",
+    "modelo": "Gixxer SF 155",
+    "año": 2017,
+    "color": "Negro",
+    "precio": "5'000.000",
+    "descripcion": "Una motocicleta de carenado deportivo",
+    "foto_principal": "./src/assets/moto_cbr600rr.jpg",
+    "fotos_extra": [
+      "./src/assets/moto_cbr600rr_lateral.jpg",
+      "./src/assets/moto_cbr600rr_trasera.jpg",
+      "./src/assets/moto_cbr600rr_delantera.jpg"
+    ]
+  }
+}
+  

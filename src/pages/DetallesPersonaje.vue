@@ -57,7 +57,7 @@
     padding: 2rem; /* Añade algo de espacio dentro del contenedor */
     background-color: #fff; /* Fondo blanco para el contenido */
     border-radius: 8px; /* Bordes redondeados para el contenedor */
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra sutil para dar profundidad */
+    box-shadow: 0 2px 10px #333; /* Sombra sutil para dar profundidad */
   }
   
   .character-details header {
